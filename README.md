@@ -1,4 +1,4 @@
-#Basic **User-Management system** using node.js,express.js,jsonwebtokens and bcrypt.js.<br/>
+Basic **User-Management system** using node.js,express.js,jsonwebtokens and bcrypt.js.<br/>
 Following endpoints are available:<br/>
 1]Register API<br/>
 Ex : http://localhost:3000/routes/v1/user/register<br/>
@@ -8,7 +8,7 @@ Ex : http://localhost:3000/routes/v1/user/login<br/>
 We need to provide email and password, If email and password are correct it will return the response with signed JWT token.<br/>
 3]Show others profile API<br/>
 Ex : http://localhost:3000/routes/v1/user/userinfo/12f99df8-97f8-41d3-afde-3cad9d75f985</br>
-User need to pass authentication token in header of the request and ID of the user as a query parameter.
+User need to pass authentication token in header of the request and ID of the user as a query parameter.<br/>
 4]Show your own profile API <br/>
 Ex : http://localhost:3000/routes/v1/user/myinfo<br/>
 User just need to provide JWT token in header and information will be fetched from the information present in the token.<br/>
