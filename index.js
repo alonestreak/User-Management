@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //to serve images in uploads folder as static files
-app.use(express.static('uploads'));
+app.use(express.static(__dirname+'/uploads'));
 
 app.use('/routes/v1',userRoutesController);
 
